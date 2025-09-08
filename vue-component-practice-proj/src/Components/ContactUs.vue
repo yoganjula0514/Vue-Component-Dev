@@ -6,14 +6,7 @@
 
 </template>
 
-<script>
-export default {
-    setup() {
-        const contactUsEmail = 'contactus@practice.com'
-        return {
-            contactUsEmail
-        }
-    }
-}
-
+<script setup>
+import { ref } from 'vue'
+const contactUsEmail = ref('contactus@practice.com')
 </script>

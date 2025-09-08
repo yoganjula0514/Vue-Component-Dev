@@ -4,14 +4,7 @@
     </div>
 </template>
 
-<script>
+<script setup>
     import { ref } from 'vue'
-    export default{
-        setup(){
-            let buttonClickCounter = ref(0);
-            return{
-                buttonClickCounter
-            }
-        }
-    }
+    const buttonClickCounter = ref(0);
 </script>
