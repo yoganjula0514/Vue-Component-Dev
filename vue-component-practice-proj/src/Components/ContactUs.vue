@@ -7,7 +7,6 @@
 </template>
 
 <script>
-import { createApp } from 'vue';
 export default {
     setup() {
         const contactUsEmail = 'contactus@practice.com'

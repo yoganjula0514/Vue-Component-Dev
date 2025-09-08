@@ -2,16 +2,14 @@
     <div id="App">
         {{ mainTitle }}
         <contact-us></contact-us>
+        <button-click-counter></button-click-counter>
     </div>
 
 </template>
 
 <script>
 
-import { createApp } from 'vue';
-import ContactUs from './Components/ContactUs.vue';
 export default {
-    components: { ContactUs },
     setup() {
         const mainTitle = 'Hello Vue 3';
         return {
