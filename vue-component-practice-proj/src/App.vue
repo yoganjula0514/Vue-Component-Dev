@@ -2,20 +2,17 @@
     <div id="App">
         {{ mainTitle }}
         <contact-us></contact-us>
-        <button-click-counter></button-click-counter>
+        <!-- <button-click-counter></button-click-counter> -->
+        <ButtonClickCounter> </ButtonClickCounter>
+        <ButtonClickCounter> </ButtonClickCounter>
     </div>
 
 </template>
 
-<script>
+<script setup>
 
-export default {
-    setup() {
-        const mainTitle = 'Hello Vue 3';
-        return {
-            mainTitle
-        };
-    }
-}
+// Local component
+import ButtonClickCounter from './Components/ButtonClickCounter.vue'
+const mainTitle = 'Hello Vue 3';
 
 </script>

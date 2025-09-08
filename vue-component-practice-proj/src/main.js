@@ -5,7 +5,8 @@ import ButtonClickCounter from './Components/ButtonClickCounter.vue'
 
 const app = createApp(App);
 
+// Global component
 app.component('contact-us', ContactUs);
-app.component('button-click-counter', ButtonClickCounter);
+// app.component('button-click-counter', ButtonClickCounter);
  
 app.mount('#app')

@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="bg-info rounted p-2 m-2">
         Please write to below mail id for all queries.
         <p>{{ contactUsEmail }}</p>
     </div>
